@@ -60,7 +60,7 @@ $.fa.extend({
            height: $(document).height()-200,
            width: $(document).width()-30,
            rowNum: parseInt(($(document).height()-200)/22),
-           rowList:[10,20,50,100],
+           rowList:[10,20,50,100,200,300,500],
            pager: '#'+pager.attr('id'),
            sortname: 'id',
            viewrecords: true, sortorder: "desc",
